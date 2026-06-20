@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Button />
+      <Button variant="destructive">shadcn sample button</Button>
       <h1 className="text-blue-600 dark:text-sky-400 border-2 p-4 rounded-xl">
         Learn Web Developemnt with liyutech.org
       </h1>
