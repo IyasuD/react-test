@@ -1,12 +1,13 @@
 import "./App.css";
 import CourseCard from "./components/CourseCard";
 import Header from "./components/Header";
-
+// import { Button } from "@base-ui/react";
+import { Button } from "./components/ui/button";
 function App() {
   return (
     <>
       <Header />
-
+      <Button />
       <h1 className="text-blue-600 dark:text-sky-400 border-2 p-4 rounded-xl">
         Learn Web Developemnt with liyutech.org
       </h1>
