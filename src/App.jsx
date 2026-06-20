@@ -1,9 +1,12 @@
 import "./App.css";
 import CourseCard from "./components/CourseCard";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
+      <Header />
+
       <h1 className="text-blue-600 dark:text-sky-400 border-2 p-4 rounded-xl">
         Learn Web Developemnt with liyutech.org
       </h1>
